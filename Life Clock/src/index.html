@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  
+</head>
+<body class="bg-slate-500">
+    <div class="w-screen h-[80vh] flex justify-center items-center flex-col">
+        <h1 id="MainText" class="text-white text-7xl">Enter Your Date of Birth</h1>
+        <div class="text-5xl text-orange-200 hidden" id="dis">
+            <h1 class="text-center">You have spent this much time on earth</h1>
+            <div class="flex gap-5">
+                <div>
+                    <h1 class="text-center" id="years">20</h1>
+                    <h2>Years</h2>
+                </div>
+                <div>
+                    <h1 class="text-center" id="months">20</h1>
+                    <h2>Months</h2>
+                </div>
+                <div>
+                    <h1 class="text-center" id="days">20</h1>
+                    <h2>Days</h2>
+                </div>
+                <div>
+                    <h1 class="text-center" id="hours">20</h1>
+                    <h2>Hours</h2>
+                </div>
+                <div>
+                    <h1 class="text-center" id="minutes">20</h1>
+                    <h2>Minutes</h2>
+                </div>
+                <div>
+                    <h1 class="text-center" id="seconds">20</h1>
+                    <h2>Seconds</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flex gap-3 justify-center items-center">
+        <div><i id="gear" class="fa-solid fa-gear text-5xl"></i></div>
+        <div id="datediv" class="hidden">
+            <input type="date" name="" class="text-center text-5xl p-2 rounded-lg" id="dateInput">
+        </div>
+        <div><button id="btn" class="rounded-3xl bg-orange-200 p-5 hidden">
+            Calculate
+        </button></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a6c30ee3d1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
