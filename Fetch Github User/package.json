@@ -1,0 +1,12 @@
+{
+  "name": "fetch-github-user",
+  "version": "1.0.0",
+  "description": "A Web Application that fetches the details of a github user using the Github API",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch" : "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Devanjoy Das",
+  "license": "ISC"
+}
