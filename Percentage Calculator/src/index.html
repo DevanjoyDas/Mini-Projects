@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-400">
+    <div class="w-screen h-screen flex flex-col justify-center items-center">
+        <form class="text-center text-3xl space-y-8" id="marksForm">
+            <div><h1>Input Your Marks</h1></div>
+            <div class="flex">
+                <div>
+                    <input required type="number" name="" id="" placeholder="English" min="0" max="100" class="1/2">
+                    <input required type="number" name="" id="" placeholder="Maths" min="0" max="100" class="w-1/2">
+                </div>
+                <div>
+                    <input required type="number" name="" id="" placeholder="Science" min="0" max="100" class="w-1/2">
+                    <input required type="number" name="" id="" placeholder="Hindi" min="0" max="100" class="w-1/2">
+                </div>
+            </div>
+            <div>
+                <button id="subbtn" type="submit" class="rounded-full bg-orange-100 p-3 hover:bg-orange-400">Calculate</button>
+            </div>
+            <div id="statement"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
