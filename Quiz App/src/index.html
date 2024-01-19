@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-400">
+    <div class="w-screen h-screen flex flex-col justify-center items-center">
+        <div class="text-center text-3xl bg-gray-200 space-y-9">
+            <h1>Score <span id="score">0</span></h1>
+            <div>What is <span id="first"></span> <span id="operator"></span> <span id="second"></span> ?</div>
+            <form action=""  id="ansform">
+                <div><input class="text-center" type="number" name="" id="answer" placeholder="Answer"></div>
+                <button id="submitbtn" type="submit" class="rounded-full bg-orange-100 p-3">Submit</button>
+            </form>
+        </div>
+        <div class="bg-green-300 w-[30%] h-[10%] mt-3 hidden text-center" id="popup">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
