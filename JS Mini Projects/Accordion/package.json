@@ -1,0 +1,15 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "Accordion Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch" : "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Devanjoy Das",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
